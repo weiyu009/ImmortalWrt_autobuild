@@ -83,7 +83,8 @@ jobs:
 
     - name: SSH connect to Actions
       uses: P3TERX/ssh2actions@main
-       if: (github.event.inputs.ssh == 'true') || contains(github.event.action, 'ssh')
+      if: (github.event.input.ssh == 'true') || contains(github.event.action,'ssh' )
+
 
        
     - name: Freeing up disk space
