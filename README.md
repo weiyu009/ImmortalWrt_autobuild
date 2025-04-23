@@ -1,2 +1,3 @@
 # ImmortalWrt_autobuild
-昂抽屉鸥鸟
+https://github.com/immortalwrt/immortalwrt 
+按照配置编译k2p的固件
